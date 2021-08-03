@@ -1,0 +1,122 @@
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* HEADER  */
+.header {
+    background-color: #1d232b;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    z-index: 10;
+    &__logo {
+        width: 40%;
+        a {
+            font-size: 5rem;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            span {
+                color: #03cacb;
+            }
+        }
+    }
+    &__nav {
+        font-size: 2rem;
+        width: 60%;
+        ul {
+            li {
+                list-style-type: none;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 0.5rem 1rem;
+                }
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background-color: white;
+                    display: block;
+                }
+                &:hover {
+                    a {
+                        color: #03cacb;
+                    }
+                    &::after {
+                        background-color: #03cacb;
+                    }
+                }
+            }
+        }
+    }
+}
+/* BANNER  */
+.carousel {
+    color: white;
+    background: url("../img/b1.jpg") 100% 100% no-repeat;
+    background-size: cover;
+    height: 600px;
+    &__container {
+        h1 {
+            font-weight: 700;
+            line-height: 8rem;
+            font-size: 5rem;
+            text-transform: uppercase;
+        }
+        p {
+            color: #f3eaece1;
+            font-size: 1.8rem;
+        }
+    }
+}
+/* ABOUT  */
+.about {
+    h1 {
+        font-size: 5rem;
+    }
+    &__item {
+        text-align: center;
+        width: 30%;
+        margin: 0 auto;
+        p {
+            color: #a39d9e;
+            font-size: 1.6rem;
+        }
+    }
+    &__us {
+        text-align: center;
+        h2 {
+            color: #03cacb;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.6rem;
+        }
+    }
+}
+/* STATS  */
+.stats {
+    background-color: #03cacb;
+    h1 {
+        color: black;
+    }
+    &__item {
+        text-align: center;
+        h1 {
+            color: white;
+        }
+        h2 {
+            color: black;
+        }
+    }
+}
+/* BLOG  */
+/* GET MORE  */
+/* PORTFOLIO  */
+/* SUBSCRIBE  */
+/* OUR AGENTS  */

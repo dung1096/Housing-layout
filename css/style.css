@@ -5,6 +5,10 @@ html {
           box-sizing: border-box;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 /* HEADER  */
 .header {
   background-color: #1d232b;
@@ -74,7 +78,6 @@ html {
 .carousel__container h1 {
   font-weight: 700;
   line-height: 8rem;
-  font-size: 5rem;
   text-transform: uppercase;
 }
 
@@ -84,14 +87,19 @@ html {
 }
 
 /* ABOUT  */
-.about h1 {
-  font-size: 5rem;
-}
-
 .about__item {
   text-align: center;
   width: 30%;
   margin: 0 auto;
+}
+
+.about__item i {
+  width: 7rem;
+  height: 7rem;
+  font-size: 2rem;
+  border: 1px solid #a39d9e;
+  border-radius: 50%;
+  line-height: 7rem;
 }
 
 .about__item p {
@@ -117,10 +125,6 @@ html {
   background-color: #03cacb;
 }
 
-.stats h1 {
-  color: black;
-}
-
 .stats__item {
   text-align: center;
 }
@@ -134,8 +138,125 @@ html {
 }
 
 /* BLOG  */
+.blog__item {
+  width: 30%;
+  background-color: #efefef;
+}
+
+.blog__item hr {
+  margin: 0;
+  border: 3px solid #03cacb;
+  background-color: #03cacb;
+}
+
+.blog__item img {
+  width: 100%;
+}
+
+.blog__item h2 {
+  color: #03cacb;
+  font-size: 1.8rem;
+}
+
+.blog__item p {
+  font-size: 1.6rem;
+}
+
+.blog__item button {
+  color: #03cacb;
+  background-color: black;
+  border: none;
+  font-size: 1.6rem;
+}
+
 /* GET MORE  */
+.get-more__left {
+  width: 45%;
+}
+
+.get-more__left img {
+  width: 100%;
+}
+
+.get-more__right {
+  width: 55%;
+  background-color: #03cacb;
+  text-align: center;
+}
+
+.get-more__right p {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.get-more__right button {
+  color: #03cacb;
+  background-color: black;
+  border: none;
+  font-size: 1.6rem;
+}
+
 /* PORTFOLIO  */
+.portfolio__item {
+  margin: auto;
+}
+
 /* SUBSCRIBE  */
+.subscribe {
+  background-color: #03cacb;
+  text-align: center;
+}
+
+.subscribe p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.subscribe input {
+  width: 70%;
+  height: 3rem;
+  display: block;
+  margin: auto;
+}
+
+.subscribe button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+}
+
 /* OUR AGENTS  */
+.agents__item img {
+  width: 100%;
+}
+
+.agents__info {
+  background-color: #1d232b;
+  text-align: center;
+}
+
+.agents__info h2 {
+  font-size: 2.5rem;
+  color: #03cacb;
+}
+
+.agents__info p {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.agents__info a > i {
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 16px;
+  color: white;
+}
+
+.agents__info a > i:hover {
+  color: #03cacb;
+}
 /*# sourceMappingURL=style.css.map */

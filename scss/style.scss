@@ -3,6 +3,9 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+h1 {
+        font-size: 5rem;
+}
 /* HEADER  */
 .header {
     background-color: #1d232b;
@@ -65,7 +68,6 @@ html {
         h1 {
             font-weight: 700;
             line-height: 8rem;
-            font-size: 5rem;
             text-transform: uppercase;
         }
         p {
@@ -76,13 +78,18 @@ html {
 }
 /* ABOUT  */
 .about {
-    h1 {
-        font-size: 5rem;
-    }
     &__item {
         text-align: center;
         width: 30%;
         margin: 0 auto;
+        i {
+            width: 7rem;
+            height: 7rem;
+            font-size: 2rem;
+            border: 1px solid #a39d9e;
+            border-radius: 50%;
+            line-height: 7rem;
+        }
         p {
             color: #a39d9e;
             font-size: 1.6rem;
@@ -102,9 +109,6 @@ html {
 /* STATS  */
 .stats {
     background-color: #03cacb;
-    h1 {
-        color: black;
-    }
     &__item {
         text-align: center;
         h1 {
@@ -116,7 +120,113 @@ html {
     }
 }
 /* BLOG  */
+.blog {
+    &__item {
+        width: 30%;
+        background-color: #efefef;
+        hr {
+            margin: 0;
+            border: 3px solid #03cacb;
+            background-color: #03cacb;
+        }
+        img {
+            width: 100%;
+        }
+        h2 {
+            color: #03cacb;
+            font-size: 1.8rem;
+        }
+        p {
+            font-size: 1.6rem;
+        }
+        button {
+            color: #03cacb;
+            background-color: black;
+            border: none;
+            font-size: 1.6rem;
+        }
+    }
+}
 /* GET MORE  */
+.get-more {
+    &__left {
+        width: 45%;
+        img {
+            width: 100%;
+        }
+    }
+    &__right {
+        width: 55%;
+        background-color: #03cacb;
+        text-align: center;
+        p {
+            font-size: 1.6rem;
+            color: white;
+        }
+        button {
+            color: #03cacb;
+            background-color: black;
+            border: none;
+            font-size: 1.6rem;
+        }
+    }
+}
 /* PORTFOLIO  */
+.portfolio {
+    &__item {
+        margin: auto;
+    }
+}
 /* SUBSCRIBE  */
+.subscribe {
+    background-color: #03cacb;
+    text-align: center;
+    p {
+        color: white;
+        font-size: 1.6rem;
+    }
+    input {
+        width: 70%;
+        height: 3rem;
+        display: block;
+        margin: auto;
+    }
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 1.6rem;
+    }
+}
 /* OUR AGENTS  */
+.agents {
+    &__item {
+        img {
+            width: 100%;
+        }    
+    }
+    &__info {
+        background-color: #1d232b;
+        text-align: center;
+        h2 {
+            font-size: 2.5rem;
+            color: #03cacb;
+        }
+        p {
+            font-size: 1.6rem;
+            color: white;
+        }
+        a>i {
+            border: 1px solid white;
+            width: 3rem;
+            height: 3rem;
+            text-align: center;
+            line-height: 3rem;
+            font-size: 16px;
+            color: white;
+            &:hover {
+                color: #03cacb;
+            }
+        }
+    }
+}
